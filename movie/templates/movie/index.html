@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>move list</title>
+</head>
+<body>
+<ul>
+{% for dir in dirs%}
+    <li style="color: #462921;font-size: 20px;">
+        {{ dir }} <a  href="/movie/{{ cur_dir|safe }}/?next={{ dir|safe }}">come in</a>
+    </li>
+{% endfor %}
+{% for file in files%}
+    <li style="margin-right: 20px;font-size: 20px;">
+         {{ file }} <button><a href="{{url}}/{{ file|safe }}" target="_blank">play</a></button>
+    </li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
