@@ -1,0 +1,3 @@
+*.pyc
+movie/__pycache__
+myweb/__pycache__
