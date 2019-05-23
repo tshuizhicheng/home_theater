@@ -4,7 +4,7 @@ import os
 # Create your views here.
 
 
-FILE_HOME_DIR = "G:/XiGuaYingshi/"
+FILE_HOME_DIR = "D:\\Rmcache"
 MEDIA = [ ".mp4",]
 
 
